@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Open sans", serif;
+  font-size: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.vertCenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.centerText {
+  text-align: center; }
+
+.firstPage {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  font-size: 24px; }
+  .firstPage .header {
+    width: 100%;
+    padding: 0.5rem;
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 40vh; }
+    .firstPage .header h1 {
+      font-size: 3rem;
+      letter-spacing: 0.5rem; }
+    .firstPage .header h2 {
+      font-size: 1.5rem;
+      letter-spacing: 0.25rem;
+      padding-bottom: 0.25rem; }
+  .firstPage .fix-header {
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    height: 70px; }
+    .firstPage .fix-header h1 {
+      padding-top: 10px;
+      font-size: 2rem;
+      letter-spacing: 0.25rem; }
+    .firstPage .fix-header h2 {
+      font-size: 1rem;
+      letter-spacing: 0.1rem; }
+
+.links {
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  top: 33px;
+  right: 5px;
+  margin-right: 10px;
+  color: #fff;
+  z-index: 1; }
+  .links a {
+    background-color: transparent;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    padding: 0.25rem;
+    outline: none;
+    text-decoration: none; }
+  .links a:hover {
+    color: #f2A088; }
+
+.sidebar {
+  width: 40%;
+  float: left; }
+  .sidebar h2 {
+    font-size: 2rem; }
+
+.sticky {
+  position: fixed;
+  top: 0; }
+
+.about {
+  height: 100vh;
+  top: 40vh;
+  margin-left: 40%; }
+  .about p {
+    margin: 0 10% 0 10%;
+    font-size: 2rem;
+    padding: 0 0 2rem 0; }
+
+.container {
+  width: 100%;
+  min-height: 320px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  font-size: 24px;
+  overflow: auto; }
+  .container h1 {
+    font-size: 3rem;
+    padding: 0.5rem;
+    display: inline-block;
+    color: white;
+    letter-spacing: 0.3rem;
+    position: relative;
+    top: 30vh; }
+  .container .bar {
+    background-color: transparent;
+    opacity: 1;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 30vh;
+    position: relative;
+    top: 64vh;
+    display: inline-block; }
+  .container .btn {
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 1.25rem;
+    width: 20rem;
+    height: 4rem;
+    margin: 0 auto;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 0.75rem; }
+  .container .btn:hover {
+    letter-spacing: 1rem;
+    color: #f2A088;
+    border: 1px solid #f2A088; }
+
+.contact {
+  height: 100vh; }
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  .firstPage {
+    font-size: 0.5rem; }
+    .firstPage .header {
+      width: 100%;
+      text-align: left;
+      position: fixed;
+      top: 0px;
+      background-color: rgba(0, 0, 0, 0.75);
+      z-index: 1; }
+      .firstPage .header h1 {
+        margin-top: 3px;
+        font-size: 1rem;
+        letter-spacing: 0.1rem; }
+      .firstPage .header h2 {
+        font-size: 0.5rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 0px; }
+
+  .links {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    top: 17px;
+    right: 10px;
+    margin-right: 10px;
+    z-index: 1; }
+    .links a {
+      background-color: transparent;
+      font-size: 1rem;
+      margin: 0 auto;
+      padding: 0.25rem;
+      color: #fff;
+      outline: none;
+      text-decoration: none; }
+    .links a:hover {
+      color: #f2A088; }
+
+  .container .bar {
+    height: 20vh;
+    top: 71.5vh; }
+  .container .btn {
+    width: 80%; } }
+
+/*# sourceMappingURL=styles.css.map */
