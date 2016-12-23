@@ -1,7 +1,8 @@
 # Ignore #
 ##########
 
-# Mac
+# Mac #
+#####
 .DS_Store
 .DS_Store?
 ._*
@@ -11,6 +12,7 @@
 Icon
 
 #project files #
+################
 site.bak/
 node_modules/
 .sass-cache/
@@ -23,6 +25,4 @@ package.json
 
 # sass #
 *.scss
-*.css.map
-
-
+*.map
