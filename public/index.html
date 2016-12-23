@@ -2,59 +2,128 @@
 <html>
 
 <head>
-    <title>Devin's Portfolio</title>
+    <title>Ashley Petroff</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="img/artboard1.png" />
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicons/hexagons2.png" />
+    <link rel="stylesheet" href="stylesheets/jquery.fullPage.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/flowtype.js"></script>
 </head>
 
 <body>
-    <div id="firstView" class="firstPage" style="background-image: url('img/render2.jpg')">
-        <div class='header centerText'>
+    <div id="fullpage">
+        <div class="section">
+            <div id="firstView" class="firstPage" style="background-image: url('img/renders/streetWindow.jpg')">
+                <h2 class='name'>Architectural & Graphic Design</h2>
+                <div class='header centerText'>
+                    <div>
+                        <h1 class='name'>Ashley Petroff</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div id="aboutMe" style="background-color:#fff">
+                <div class='sidebar centerText'>
+                    <div id="logo" class="logo vertCenter">
+                        <img src="img/graphics/ashley.png" width="50%">
+                        <h1>About</h1>
+                        <div class="links">
+                            <a class="about"> About </a><a>/</a><a class="work"> Work </a><a>/</a><a class="contact"> Contact </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="aboutText" class='vertCenter centerText'>
+                    <p style="font-weight: 400;">I am an Architectural Desinger living in Eugene, Oregon.</p>
+                    <p>The world is design - architecture is design for the living now and in the future.</p>
+                    <p>I am currently an architectural designer for 2Form Architects in Eugene, Oregon - while finishing up my professional degree in Architecture at the Univeristy of Oregon.</p>
+                    <p style="font-weight: 400;letter-spacing: 0.1rem;">Education</p>
+                    <p>Studying at the University of the Oregon, I have spent the last four and a half years as a student of design in the living world.</p>
+                    <p style="font-weight: 400;letter-spacing: 0.1rem;">Work Experiences</p>
+                    <p>Starting my work in the field at Dahlin Group in Pleasanton, California, I spent eight fourty-hour weeks as an intern working on [was I working on]. I then began working at 2Form architecture, where I currently intern, as a designer during the summer of 2016</p>
+                </div>
+            </div>
+        </div>
+        <div class="section projects">
+            <div class="links">
+                <a class="about"> About </a><a>/</a><a class="work"> Work </a><a>/</a><a class="contact"> Contact </a>
+            </div>
+            <div class="slide slide1">
+                <div class="container centerText" style="background-image: url('img/renders/livingroom.jpg')">
+                    <h1 id="slide1Header">A Room For Living</h1>
+                    <br>
+                    <div class='bar'>
+                        <button class="btn vertCenter">VIEW CASE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="container centerText" style="background-image: url('img/renders/courtYard.jpg')">
+                    <h1 id="slide2Header">The Courtyard</h1>
+                    <br>
+                    <div class='bar'>
+                        <button class="btn vertCenter centerText">VIEW CASE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="container centerText" style="background-image: url('img/renders/bar.png')">
+                    <h1 id="slide3Header">Hotel Bar</h1>
+                    <br>
+                    <div class='bar'>
+                        <button class="btn vertCenter">VIEW CASE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="container centerText" style="background-image: url('img/renders/window.jpg')">
+                    <h1 id="slide4Header">Overlook</h1>
+                    <br>
+                    <div class='bar'>
+                        <button class="btn vertCenter centerText">VIEW CASE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="contactForm">
+            <div id="ContactContainer">
+                <h1>Contact Me</h1>
+                <hr>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" />
+                        <br />
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" />
+                        <br />
+                        <label for="description">Description:</label>
+                        <br>
+                        <textarea id="description" name="description" placeholder="Enter a short description about yourself"></textarea>
+                        <br />
+                        <input type="submit" class="btn" value="Submit" />
+                    </fieldset>
+                </form>
+            </div>
             <div>
-                <h1 class='name'>LOREM IPSUM</h1>
-                <h2 class='name'>DOLOR SIT AMET</h2>
+                <a href="https://www.linkedin.com/in/ashley-petroff-b0101495/"><img id="social" src="img/linkedin.png" alt=""></a>
+                <br>
+            </div>
+            <div class="links">
+                <a class="about"> About </a><a>/</a><a class="work"> Work </a><a>/</a><a class="contact"> Contact </a>
             </div>
         </div>
-    </div>
-    <div class="links">
-        <a id="about">About</a>|<a id="work">Work</a>|<a id="contact">Contact</a>
-    </div>
-    <div class='sidebar centerText' style="background-color:#d9d9d9">
-        <div id="logo" class="logo vertCenter">
-            <img src="img/hexagons.png" width="50%">
-            <h2>LOREM IPSUM</h2>
-        </div>
-    </div>
-    <div class="about" style="background-color:#fff">
-        <div class='vertCenter'>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-        </div>
-    </div>
-    <div id="projects">
-        <!-- background-image: url(/img/f-img/test.png) -->
-        <div class="container centerText" style="background-image: url('img/render3.jpg')">
-            <h1>CONSECTETUR</h1>
-            <br>
-            <div class='bar'>
-                <button class="btn vertCenter">VIEW CASE</button>
-            </div>
-        </div>
-        <div class="container centerText" style="background-image: url('img/render2.jpg')">
-            <h1>ADIPISCING</h1>
-            <br>
-            <div class='bar'>
-                <button class="btn vertCenter centerText">VIEW CASE</button>
-            </div>
-        </div>
-    </div>
-    <div class="contact" style="background-color:#a6a6a6">
     </div>
 </body>
-<script src="scripts/animate.js"></script>
+<script src="scripts/jquery.fullPage.js"></script>
+<script src="scripts/ashley.js"></script>
+<!-- <script>
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+</script> -->
 
 </html>

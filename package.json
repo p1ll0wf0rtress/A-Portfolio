@@ -12,8 +12,19 @@
   "dependencies": {
     "browser-sync": "^2.18.5",
     "express": "^4.14.0",
+    "fs": "0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
-    "gulp-sass": "^3.0.0"
-  }
+    "gulp-sass": "^3.0.0",
+    "http": "0.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p1ll0wf0rtress/A-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/p1ll0wf0rtress/A-Portfolio/issues"
+  },
+  "homepage": "https://github.com/p1ll0wf0rtress/A-Portfolio#readme"
 }
