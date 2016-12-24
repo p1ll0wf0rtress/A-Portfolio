@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <script src="scripts/jquery-3.1.1.min.js"></script>
     <script src="scripts/flowtype.js"></script>
+    <script src="scripts/modernizr-custom.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
             <div id="aboutMe" style="background-color:#fff">
                 <div class='sidebar centerText'>
                     <div id="logo" class="logo vertCenter">
-                        <img src="img/graphics/ashley.webp" width="50%">
+                        <img src="img/graphics/ashley.webp" width="50%" onerror="this.src='img/graphics/ashley.png'">
                         <h1>About</h1>
                         <div class="links">
                             <a class="about"> About </a><a>/</a><a class="work"> Work </a><a>/</a><a class="contact"> Contact </a>
@@ -52,8 +53,8 @@
             <div class="links">
                 <a class="about"> About </a><a>/</a><a class="work"> Work </a><a>/</a><a class="contact"> Contact </a>
             </div>
-            <div class="slide slide1">
-                <div class="container centerText" style="background-image: url('img/renders/livingroom.webp')">
+            <div id="slide1" class="slide">
+                <div class="container centerText" style="background-image: url('img/renders/livingroom.jpg')">
                     <h1 id="slide1Header">A Room For Living</h1>
                     <br>
                     <div class='bar'>
@@ -61,8 +62,8 @@
                     </div>
                 </div>
             </div>
-            <div class="slide">
-                <div class="container centerText" style="background-image: url('img/renders/courtYard.webp')">
+            <div id="slide2" class="slide">
+                <div class="container centerText" style="background-image: url('img/renders/courtYard.jpg')">
                     <h1 id="slide2Header">The Courtyard</h1>
                     <br>
                     <div class='bar'>
@@ -70,8 +71,8 @@
                     </div>
                 </div>
             </div>
-            <div class="slide">
-                <div class="container centerText" style="background-image: url('img/renders/bar.webp')">
+            <div id="slide3" class="slide">
+                <div class="container centerText" style="background-image: url('img/renders/bar.jpg')">
                     <h1 id="slide3Header">Hotel Bar</h1>
                     <br>
                     <div class='bar'>
@@ -79,8 +80,8 @@
                     </div>
                 </div>
             </div>
-            <div class="slide">
-                <div class="container centerText" style="background-image: url('img/renders/window.webp')">
+            <div id="slide4" class="slide">
+                <div class="container centerText" style="background-image: url('img/renders/window.jpg')">
                     <h1 id="slide4Header">Overlook</h1>
                     <br>
                     <div class='bar'>
@@ -112,7 +113,7 @@
                 </form>
             </div>
             <div>
-                <a href="https://www.linkedin.com/in/ashley-petroff-b0101495/"><img id="social" src="img/graphics/linkedin.webp" alt=""></a>
+                <a href="https://www.linkedin.com/in/ashley-petroff-b0101495/"><img id="social" src="img/graphics/linkedin.webp" alt="" onerror="this.src='img/graphics/linkedin.png'"></a>
                 <br>
             </div>
             <div class="links">

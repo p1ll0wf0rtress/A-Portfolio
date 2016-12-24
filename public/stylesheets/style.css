@@ -59,7 +59,7 @@ body {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   font-size: 24px;
   text-align: center; }
   .firstPage h2 {
@@ -127,74 +127,79 @@ body {
       width: 90%;
       margin: 0rem 0 1.5rem 0; }
 
-.projects .links {
-  text-align: center;
-  width: 100%;
-  float: middle;
-  position: absolute;
-  bottom: 5%;
-  z-index: 3; }
-  .projects .links a {
-    color: #fff;
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    font-size: 1rem; }
-.projects .container {
-  width: 100%;
-  min-height: 320px;
+.projects {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  font-size: 24px;
-  overflow: auto; }
-  .projects .container h1 {
-    font-size: 3rem;
-    padding: 0.5rem;
-    display: inline-block;
-    color: white;
-    letter-spacing: 0.3rem;
-    position: relative;
-    top: 30vh; }
-  .projects .container .bar {
-    background-color: transparent;
-    opacity: 1;
+  background-position: center; }
+  .projects .links {
+    text-align: center;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-    top: 64vh;
-    display: inline-block; }
-  .projects .container .btn {
-    background-color: rgba(0, 0, 0, 0.25);
-    font-family: "Poiret One", cursive;
-    font-size: 1.25rem;
-    width: 20rem;
-    height: 4rem;
-    margin: 0 auto;
-    padding: 8px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    outline: none;
-    text-decoration: none;
-    letter-spacing: 0.75rem; }
-  .projects .container .btn:hover {
-    letter-spacing: 1rem;
-    color: #f2A088;
-    border: 1px solid #f2A088; }
-  .projects .container #slide1Header {
-    font-family: "Oswald", sans-serif;
-    color: rgba(0, 0, 0, 0.65); }
-  .projects .container #slide2Header {
-    font-family: "Oswald", sans-serif;
-    color: rgba(0, 0, 0, 0.65); }
-  .projects .container #slide3Header {
-    font-family: "Oswald", sans-serif;
-    color: rgba(0, 0, 0, 0.65); }
-  .projects .container #slide4Header {
-    font-family: "Oswald", sans-serif;
-    color: rgba(0, 0, 0, 0.65); }
+    float: middle;
+    position: absolute;
+    bottom: 5%;
+    z-index: 3; }
+    .projects .links a {
+      color: #fff;
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 1rem; }
+  .projects .container {
+    width: 100%;
+    min-height: 320px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-size: 24px;
+    overflow: auto; }
+    .projects .container h1 {
+      font-size: 3rem;
+      padding: 0.5rem;
+      display: inline-block;
+      color: white;
+      letter-spacing: 0.3rem;
+      position: relative;
+      top: 30vh; }
+    .projects .container .bar {
+      background-color: transparent;
+      opacity: 1;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+      top: 64vh;
+      display: inline-block; }
+    .projects .container .btn {
+      background-color: rgba(0, 0, 0, 0.25);
+      font-family: "Poiret One", cursive;
+      font-size: 1.25rem;
+      width: 20rem;
+      height: 4rem;
+      margin: 0 auto;
+      padding: 8px;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 2px;
+      outline: none;
+      text-decoration: none;
+      letter-spacing: 0.75rem; }
+    .projects .container .btn:hover {
+      letter-spacing: 1rem;
+      color: #f2A088;
+      border: 1px solid #f2A088; }
+    .projects .container #slide1Header {
+      font-family: "Oswald", sans-serif;
+      color: rgba(0, 0, 0, 0.65); }
+    .projects .container #slide2Header {
+      font-family: "Oswald", sans-serif;
+      color: rgba(0, 0, 0, 0.65); }
+    .projects .container #slide3Header {
+      font-family: "Oswald", sans-serif;
+      color: rgba(0, 0, 0, 0.65); }
+    .projects .container #slide4Header {
+      font-family: "Oswald", sans-serif;
+      color: rgba(0, 0, 0, 0.65); }
 
 #contactForm {
   text-align: center; }
