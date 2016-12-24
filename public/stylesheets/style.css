@@ -85,6 +85,18 @@ body {
       font-size: 3rem;
       letter-spacing: 0.5rem;
       padding-bottom: 0.5rem; }
+  .firstPage .links {
+    text-align: center;
+    width: 100%;
+    float: middle;
+    position: absolute;
+    bottom: 5%;
+    z-index: 3; }
+    .firstPage .links a {
+      color: #fff;
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 1rem; }
 
 #aboutMe {
   height: 100vh;
