@@ -102,29 +102,31 @@ body {
   height: 100vh;
   overflow: auto; }
   #aboutMe .sidebar {
-    background-color: #414143;
-    color: #fff;
+    border-right: 0.5px solid black;
+    margin: 10vh 0 10vh 0;
+    color: #000;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    height: 100vh;
+    height: 80vh;
     position: absolute;
-    width: 40%; }
+    width: 30%; }
     #aboutMe .sidebar .links {
       margin-top: 30vh; }
       #aboutMe .sidebar .links a {
-        color: #fff;
+        color: #000;
         font-family: "Oswald", sans-serif;
         font-weight: 300;
         font-size: 1rem; }
     #aboutMe .sidebar h1 {
       font-size: 2rem; }
   #aboutMe #aboutText {
-    margin-left: 40%; }
+    margin-left: 30%;
+    line-height: 1.45; }
     #aboutMe #aboutText p {
       font-family: "Oswald", sans-serif;
       font-weight: 300;
-      padding-left: 5%;
-      width: 90%;
+      padding-left: 10%;
+      width: 80%;
       margin: 0rem 0 1.5rem 0; }
 
 .projects {
@@ -209,57 +211,24 @@ body {
       font-family: "Oswald", sans-serif;
       font-weight: 300;
       font-size: 3rem;
-      float: left;
       width: 100%;
       padding-bottom: 1rem; }
+    #contactForm #ContactContainer h2 {
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      font-size: 2rem;
+      padding-bottom: 0.75rem; }
+    #contactForm #ContactContainer p {
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      line-height: 1.45; }
     #contactForm #ContactContainer hr {
       width: 60%;
       margin-bottom: 1rem; }
-    #contactForm #ContactContainer label {
-      font-family: "Oswald", sans-serif;
-      font-weight: 300;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem; }
-    #contactForm #ContactContainer input {
-      text-align: center;
-      width: 40%;
-      background-color: transparent;
-      border: 0px solid;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem; }
-    #contactForm #ContactContainer textarea {
-      text-align: center;
-      width: 40%;
-      background-color: transparent;
-      border: 0px solid;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem; }
-    #contactForm #ContactContainer .btn {
-      background-color: rgba(0, 0, 0, 0.25);
-      font-family: "Poiret One", cursive;
-      font-weight: 300;
-      font-size: 0.75rem;
-      width: 20rem;
-      height: 2rem;
-      margin: 0 auto;
-      padding: 8px;
-      color: #fff;
-      border: 1px solid #fff;
-      border-radius: 2px;
-      outline: none;
-      text-decoration: none;
-      letter-spacing: 0.75rem;
-      appearance: none;
-      -moz-appearance: none;
-      -webkit-appearance: none;
-      border-radius: 0;
-      -moz-border-radius: 0;
-      -webkit-border-radius: 0; }
-    #contactForm #ContactContainer .btn:hover {
-      background-color: rgba(0, 0, 0, 0.75);
-      letter-spacing: 0.8rem;
-      color: #f2A088;
-      border: 1px solid #f2A088; }
+  #contactForm .social {
+    opacity: 0.6;
+    margin: 1em 0 1em 0;
+    height: 40px; }
   #contactForm .links {
     width: 100%;
     font-family: "Oswald", sans-serif;
@@ -267,9 +236,5 @@ body {
     position: absolute;
     float: middle;
     bottom: 7.5%; }
-  #contactForm #social {
-    opacity: 0.6;
-    margin: 2em 0 2em 0;
-    height: 40px; }
 
 /*# sourceMappingURL=style.css.map */
