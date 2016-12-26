@@ -2,11 +2,15 @@
 <html>
 
 <head>
-    <title>Ashley Petroff</title>
+    <title>Ashley K Petroff</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicons/hexagons2.png" />
+    <!-- stylesheets -->
     <link rel="stylesheet" href="stylesheets/jquery.fullPage.css">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/modal.css">
+    <!-- scripts -->
     <script src="scripts/jquery-3.1.1.min.js"></script>
     <script src="scripts/jquery.fullPage.js"></script>
     <script src="scripts/flowtype.js"></script>
@@ -60,10 +64,17 @@
             </div>
             <div id="slide1" class="slide">
                 <div class="container centerText" style="background-image: url('img/renders/livingroom.jpg')">
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..</p>
+                        </div>
+                    </div>
                     <h1 id="slide1Header">Room For Living</h1>
                     <br>
                     <div class='bar'>
-                        <button class="btn vertCenter">VIEW CASE</button>
+                        <button id="case1" class="btn vertCenter">VIEW CASE</button>
                     </div>
                 </div>
             </div>
