@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Ashley K Petroff: Projects</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicons/hexagons2.png" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="stylesheets/jquery.fullPage.css">
+    <link rel="stylesheet" href="stylesheets/projects.css">
+    <!-- scripts -->
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/jquery.fullPage.js"></script>
+    <script src="scripts/flowtype.js"></script>
+    <script src="scripts/modernizr-custom.js"></script>
+    <script src="scripts/projects.js"></script>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div id="section1" class="section">
+        <h1>ASHLEY'S PROJECTS</h1>
+            <div class="row">
+                <div class="column">
+                    <img src="img/test/1911.webp" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/test/ar15.webp" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/test/glocks.webp" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/test/smith.webp" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="img/test/1911.webp" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="img/test/ar15.webp" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="img/test/glocks.webp" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="img/test/smith.webp" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="img/test/1911.webp" onclick="currentSlide(1)" alt="Nature">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="img/test/ar15.webp" onclick="currentSlide(2)" alt="Trolltunga">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="img/test/glocks.webp" onclick="currentSlide(3)" alt="Mountains">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="img/test/smith.webp" onclick="currentSlide(4)" alt="Lights">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,8 +1,22 @@
 //fullpage
+var slideTimeout;
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['top', 'about', 'work', 'contact']
+        anchors: ['top', 'about', 'work', 'contact'],
+        controlArrows: false,
+        scrollingSpeed: 800,
+        easingcss3: 'ease',
+        afterRender: function() {
+            // $.fn.fullpage.setScrollingSpeed(1600);
+            setInterval(function() {
+                $.fn.fullpage.moveSlideRight();
+            }, 7500);
+        }
     });
+});
+//links
+$("#viewProjects").click(function(){
+    window.location.href = "/projects.html";
 });
 
 $(".about").click(function() {
