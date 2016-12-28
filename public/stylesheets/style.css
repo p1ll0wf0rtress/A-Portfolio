@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:300,400,700|Poiret+One|Roboto+Slab:300,400|Tangerine:400,700");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One|Raleway:100,200,300,400,500,600,700");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -68,7 +68,7 @@ body {
     position: absolute;
     bottom: 20%; }
     .firstPage #animatedScroll .scrollDown {
-      font-family: "Open Sans", serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 400;
       font-size: 1.25rem;
       -webkit-animation: color_change 1.5s infinite alternate;
@@ -103,7 +103,7 @@ body {
     color: white; } }
   .firstPage h2 {
     position: relative;
-    font-family: "Oswald", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
     color: #fff;
     float: middle;
@@ -113,13 +113,13 @@ body {
     letter-spacing: 0.15rem;
     padding-bottom: 0.25rem; }
   .firstPage .header {
-    font-family: "Oswald", sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 100%;
     padding: 0.5rem;
     display: inline-block;
     color: white;
     position: relative;
-    top: 42vh; }
+    top: 44vh; }
     .firstPage .header h1 {
       font-size: 3rem;
       letter-spacing: 0.5rem;
@@ -132,7 +132,7 @@ body {
     z-index: 3; }
     .firstPage .links a {
       color: #fff;
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 300;
       font-size: 1rem; }
 
@@ -143,7 +143,7 @@ body {
     border-right: 0.5px solid black;
     margin: 10vh 0 10vh 0;
     color: #000;
-    font-family: "Oswald", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
     height: 80vh;
     position: absolute;
@@ -152,7 +152,7 @@ body {
       margin-top: 30vh; }
       #aboutMe .sidebar .links a {
         color: #000;
-        font-family: "Oswald", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 300;
         font-size: 1rem; }
     #aboutMe .sidebar h1 {
@@ -161,7 +161,7 @@ body {
     margin-left: 30%;
     line-height: 1.45; }
     #aboutMe #aboutText p {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 300;
       padding-left: 10%;
       width: 80%;
@@ -181,7 +181,7 @@ body {
     z-index: 3; }
     .projects .links a {
       color: #fff;
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 300;
       font-size: 1rem; }
   .projects .container {
@@ -269,16 +269,16 @@ top: 0;*/
       color: #f2A088;
       border: 1px solid #f2A088; }
     .projects .container #slide1Header {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       color: rgba(0, 0, 0, 0.65); }
     .projects .container #slide2Header {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       color: rgba(0, 0, 0, 0.65); }
     .projects .container #slide3Header {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       color: rgba(0, 0, 0, 0.65); }
     .projects .container #slide4Header {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       color: rgba(0, 0, 0, 0.65); }
 
 #contactForm {
@@ -286,18 +286,18 @@ top: 0;*/
   #contactForm #ContactContainer {
     width: 100%; }
     #contactForm #ContactContainer h1 {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 300;
       font-size: 3rem;
       width: 100%;
       padding-bottom: 1rem; }
     #contactForm #ContactContainer h2 {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 400;
       font-size: 2rem;
       padding-bottom: 0.75rem; }
     #contactForm #ContactContainer p {
-      font-family: "Oswald", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 300;
       line-height: 1.45; }
     #contactForm #ContactContainer hr {
@@ -309,7 +309,7 @@ top: 0;*/
     height: 40px; }
   #contactForm .links {
     width: 100%;
-    font-family: "Oswald", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
     position: absolute;
     float: middle;
