@@ -3,7 +3,7 @@
 
 <head>
     <title>Ashley K Petroff: Projects</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="height=device-height,initial-scale=1">
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicons/hexagons2.png" />
     <!-- stylesheets -->
@@ -18,58 +18,128 @@
 </head>
 
 <body>
+    <div id="backToHome">
+        <a href="index.html"><img src="img/favicons/hexagons2.png" alt="Go Home"></a>
+    </div>
     <div id="fullpage">
         <div id="section1" class="section">
-        <h1>ASHLEY'S PROJECTS</h1>
+            <h1>Project One</h1>
+            <hr>
+            <div class="projDesc">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
             <div class="row">
                 <div class="column">
-                    <img src="img/test/1911.webp" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    <img src="img/renders/courtYard.webp" onclick="openModal1();currentSlide(1)" class="hover-shadow">
                 </div>
                 <div class="column">
-                    <img src="img/test/ar15.webp" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    <img src="img/renders/retractableWindow.webp" onclick="openModal1();currentSlide(2)" class="hover-shadow">
                 </div>
                 <div class="column">
-                    <img src="img/test/glocks.webp" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    <img src="img/renders/streetWindow.webp" onclick="openModal1();currentSlide(3)" class="hover-shadow">
                 </div>
                 <div class="column">
-                    <img src="img/test/smith.webp" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    <img src="img/renders/window.webp" onclick="openModal1();currentSlide(4)" class="hover-shadow">
                 </div>
             </div>
-            <div id="myModal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div id="modal1" class="modal">
+                <span class="close cursor" onclick="closeModal1()">&times;</span>
                 <div class="modal-content">
                     <div class="mySlides">
                         <div class="numbertext">1 / 4</div>
-                        <img src="img/test/1911.webp" style="width:100%">
+                        <img src="img/renders/courtYard.webp" style="height:60vh">
                     </div>
                     <div class="mySlides">
                         <div class="numbertext">2 / 4</div>
-                        <img src="img/test/ar15.webp" style="width:100%">
+                        <img src="img/renders/retractableWindow.webp" style="height:60vh">
                     </div>
                     <div class="mySlides">
                         <div class="numbertext">3 / 4</div>
-                        <img src="img/test/glocks.webp" style="width:100%">
+                        <img src="img/renders/streetWindow.webp" style="height:60vh">
                     </div>
                     <div class="mySlides">
                         <div class="numbertext">4 / 4</div>
-                        <img src="img/test/smith.webp" style="width:100%">
+                        <img src="img/renders/window.webp" style="height:60vh">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <div id="nav">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
                     <div class="caption-container">
                         <p id="caption"></p>
                     </div>
                     <div class="column">
-                        <img class="demo" src="img/test/1911.webp" onclick="currentSlide(1)" alt="Nature">
+                        <img class="demo" src="img/renders/courtYard.webp" onclick="currentSlide(1)" alt="Nature">
                     </div>
                     <div class="column">
-                        <img class="demo" src="img/test/ar15.webp" onclick="currentSlide(2)" alt="Trolltunga">
+                        <img class="demo" src="img/renders/retractableWindow.webp" onclick="currentSlide(2)" alt="Trolltunga">
                     </div>
                     <div class="column">
-                        <img class="demo" src="img/test/glocks.webp" onclick="currentSlide(3)" alt="Mountains">
+                        <img class="demo" src="img/renders/streetWindow.webp" onclick="currentSlide(3)" alt="Mountains">
                     </div>
                     <div class="column">
-                        <img class="demo" src="img/test/smith.webp" onclick="currentSlide(4)" alt="Lights">
+                        <img class="demo" src="img/renders/window.webp" onclick="currentSlide(4)" alt="Lights">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section2" class="section">
+            <h1>Project 2</h1>
+            <hr>
+            <div class="projDesc">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="img/renders/bar.webp" onclick="openModal2();currentSlide2(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/renders/gym.webp" onclick="openModal2();currentSlide2(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/renders/gymCeiling.webp" onclick="openModal2();currentSlide2(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/renders/street.webp" onclick="openModal2();currentSlide2(4)" class="hover-shadow">
+                </div>
+            </div>
+            <div id="modal2" class="modal">
+                <span class="close cursor" onclick="closeModal2()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides2">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="img/renders/bar.webp" style="height:60vh">
+                    </div>
+                    <div class="mySlides2">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="img/renders/gym.webp" style="height:60vh">
+                    </div>
+                    <div class="mySlides2">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="img/renders/gymCeiling.webp" style="height:60vh">
+                    </div>
+                    <div class="mySlides2">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="img/renders/street.webp" style="height:60vh">
+                    </div>
+                    <div id="nav">
+                        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                    </div>
+                    <div class="caption-container">
+                        <p id="caption2"></p>
+                    </div>
+                    <div class="column">
+                        <img class="demo2" src="img/renders/bar.webp" onclick="currentSlide2(1)" alt="Nature">
+                    </div>
+                    <div class="column">
+                        <img class="demo2" src="img/renders/gym.webp" onclick="currentSlide2(2)" alt="Trolltunga">
+                    </div>
+                    <div class="column">
+                        <img class="demo2" src="img/renders/gymCeiling.webp" onclick="currentSlide2(3)" alt="Mountains">
+                    </div>
+                    <div class="column">
+                        <img class="demo2" src="img/renders/street.webp" onclick="currentSlide2(4)" alt="Lights">
                     </div>
                 </div>
             </div>

@@ -1,9 +1,26 @@
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        anchors: ['project1', 'project2'],
+        controlArrows: false,
+        scrollingSpeed: 800,
+        easingcss3: 'ease',
+    });
+});
+
+function openModal1() {
+  document.getElementById('modal1').style.display = "block";
 }
 
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
+function openModal2() {
+  document.getElementById('modal2').style.display = "block";
+}
+
+function closeModal1() {
+  document.getElementById('modal1').style.display = "none";
+}
+
+function closeModal2() {
+  document.getElementById('modal2').style.display = "none";
 }
 
 var slideIndex = 1;
@@ -33,4 +50,33 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo2");
+  var captionText = document.getElementById("caption2");
+  if (n > slides.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex2-1].style.display = "block";
+  dots[slideIndex2-1].className += " active";
+  captionText.innerHTML = dots[slideIndex2-1].alt;
 }
