@@ -14,10 +14,8 @@
     <script src="https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/scripts/modernizr-custom.js"></script>
     <!-- uncomment for production -->
     <link rel="stylesheet" href="https://rawgit.com/p1ll0wf0rtress/A-Portfolio/master/public/stylesheets/index.css">
-    <script src="https://rawgit.com/p1ll0wf0rtress/A-Portfolio/master/public/scripts/ashley.js"></script>
     <!-- uncomment for development -->
-    <!--     <link rel="stylesheet" href="stylesheets/index.css">
-    <script src="scripts/ashley.js"></script> -->
+    <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 
 <body>
@@ -113,24 +111,9 @@
         </div>
     </div>
 </body>
-<script>
-//links
-$("#viewProjects").click(function() {
-    window.location.href = "/projects.html";
-});
-
-$(".about").click(function() {
-    console.log("about clicked");
-    $.fn.fullpage.moveTo(2);
-});
-$(".work").click(function() {
-    console.log("work clicked");
-    $.fn.fullpage.moveTo(3);
-});
-$(".contact").click(function() {
-    console.log("contact clicked");
-    $.fn.fullpage.moveTo(4);
-});
-</script>
+<!-- uncomment for production -->
+<script src="https://rawgit.com/p1ll0wf0rtress/A-Portfolio/master/public/scripts/ashley.js"></script>
+<!-- uncomment for development -->
+<script src="scripts/ashley.js"></script>
 
 </html>

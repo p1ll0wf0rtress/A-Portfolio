@@ -15,6 +15,24 @@ $(document).ready(function() {
     });
 });
 
+//links
+$("#viewProjects").click(function() {
+    window.location.href = "/projects.html";
+});
+
+$(".about").click(function() {
+    console.log("about clicked");
+    $.fn.fullpage.moveTo(2);
+});
+$(".work").click(function() {
+    console.log("work clicked");
+    $.fn.fullpage.moveTo(3);
+});
+$(".contact").click(function() {
+    console.log("contact clicked");
+    $.fn.fullpage.moveTo(4);
+});
+
 //flowtype
 $('.aboutText').flowtype({
     minFont: 2,
