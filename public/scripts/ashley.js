@@ -34,7 +34,7 @@ $(".contact").click(function() {
 
 //flowtype
 $('.aboutText').flowtype({
-    minFont: 8,
+    minFont: 2,
     maxFont: 40,
 });
 
