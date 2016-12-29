@@ -48,7 +48,7 @@ Modernizr.on('webp', function(result) {
         $("#slide3").css({ "background-image": "url('https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/renders/bar.webp')" });
         $("#slide4").css({ "background-image": "url('https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/renders/window.webp')" });
     } else if (result == false) {
-        $("#firstView").css({ "background-image": "url('img/renders/streetWindow.jpg')" });
+        $("#firstView").css({ "background-image": "url('https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/renders/streetWindow.jpg')" });
     } else {
         alert("everything's broken!");
     }
