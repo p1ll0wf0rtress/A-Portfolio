@@ -34,7 +34,7 @@ $(".contact").click(function() {
 
 //flowtype
 $('.aboutText').flowtype({
-    minFont: 16,
+    minFont: 8,
     maxFont: 40,
 });
 
@@ -42,11 +42,11 @@ $('.aboutText').flowtype({
 Modernizr.on('webp', function(result) {
     if (result == true) {
         console.log("Webp supported");
-        $("#ashley").attr("src", "img/graphics/ashley.webp");
-        $("#slide1").css({ "background-image": "url('img/renders/livingroom.webp')" });
-        $("#slide2").css({ "background-image": "url('img/renders/courtYard.webp')" });
-        $("#slide3").css({ "background-image": "url('img/renders/bar.webp')" });
-        $("#slide4").css({ "background-image": "url('img/renders/window.webp')" });
+        $("#ashley").attr("src", "https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/graphics/ashley.webp");
+        $("#slide1").css({ "background-image": "url('https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/renders/livingroom.webp')" });
+        $("#slide2").css({ "background-image": "url('https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/renders/courtYard.webp')" });
+        $("#slide3").css({ "background-image": "url('https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/renders/bar.webp')" });
+        $("#slide4").css({ "background-image": "url('https://rawgithub.com/p1ll0wf0rtress/A-Portfolio/master/public/img/renders/window.webp')" });
     } else if (result == false) {
         $("#firstView").css({ "background-image": "url('img/renders/streetWindow.jpg')" });
     } else {
